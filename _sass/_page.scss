@@ -472,7 +472,8 @@ ul.social-buttons li a:active {
 	height: 50px;
 	@media #{$medium} {
 		background-color: $header-color;
-		min-height: 300px;
+		min-height: 10px;
+		max-height: 20px;
 	}
 }
 .header-toggle{
@@ -537,9 +538,6 @@ ul.social-buttons li a:active {
 		list-style-type: none;
 		height: 100%;
 		padding: 0;
-		@media #{$large} {
-			max-width: 900px;
-		}
 	}
 }
 .header-menu-top{
@@ -582,7 +580,7 @@ ul.social-buttons li a:active {
 }
 ///sections
 .logo{
-  width: $menu-height;
+  width: $logo-width;
   height: $menu-height;
   float: left;
   padding: 10px;
